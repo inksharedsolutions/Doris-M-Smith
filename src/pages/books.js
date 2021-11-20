@@ -4,7 +4,7 @@ import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
-import Book3 from '../../static/books/book3.png'
+import Book3 from '../../static/books/book.png'
 import { Helmet } from 'react-helmet'
 
 const ATB = (props) => {
@@ -12,7 +12,7 @@ const ATB = (props) => {
     const slug = (props.location.href);
 
     const disqusConfig = {
-        shortname: 'joanne-m-baker',
+        shortname: 'd-l-smith',
         config: { identifier: 12, slug }
     }
 
@@ -20,7 +20,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="Book | Joanne M. Baker" />
+                <Helmet title="Book |  D.L. Smith" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -35,14 +35,14 @@ const ATB = (props) => {
 
                         <BookInfo
                             data={{
-                                title: `Trapped in Love'S Magic Spell`,
-                                spanFirst: `Book 1: THE SHIPS`,
+                                title: `Beautiful Sunset`,
+                                // spanFirst: `Book 1: THE SHIPS`,
                                 imgSrc: Book3,
                                 id: 'the_gifted_one',
                                 content:
                                     `
                                         <p>
-                                        Anne is the owner and there for in charge of the shipping company Paw Print when women were thought to be property; when the ship she is on is taken over by what she thinks are pirates. Anne soon learns that her beloved cats lives are in danger, she then must pull out all the stops to save them before it is too late. The captain of the privateers is use to doing as he pleases but is totally intrigued by this annoying beauty. Thomas sets out to teach her about her true place in the world and he thinks that is at his side, but Thomas has a lot to learn about Anne. When these two forces clash it is anything but smooth sailing on the high seas.
+                                        Beautiful Sunset is the memory of an 89-year old woman. It shows all the trials and joys of her life. Some bad, some good, but all made her who she is today.
                                         </p>
                                         
                                         
@@ -51,13 +51,13 @@ const ATB = (props) => {
 
                                 ebooks: {
                                     // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
-                                    barnes: 'https://www.barnesandnoble.com/w/trapped-in-loves-magic-spell-joanne-m-baker/1126345679?ean=9781648955204',
-                                    amazon: 'https://www.amazon.ca/Trapped-Loves-Magic-Spell-Ships-ebook/dp/B09FNHR42S/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=',
+                                    barnes: 'https://www.barnesandnoble.com/w/beautiful-sunset-d-l-smith/1140316550?ean=9781648955815',
+                                    amazon: 'https://www.amazon.com/Beautiful-Sunset-D-L-Smith-ebook/dp/B09HXYF823/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1637446499&sr=8-1',
                                 },
                                 paperback: {
-                                    amazon: 'https://www.amazon.ca/Trapped-Loves-Magic-Spell-Ships/dp/1648955193/ref=monarch_sidesheet',
-                                    barnes: 'https://www.barnesandnoble.com/w/trapped-in-loves-magic-spell-joanne-m-baker/1126345679?ean=9781648955198',
-                                    booksamillion: 'https://www.booksamillion.com/p/Trapped-Loves-Magic-Spell/Joanne-Baker/9781648955198?id=8330748555077',
+                                    amazon: 'https://www.amazon.com/Beautiful-Sunset-D-L-Smith/dp/1648955800/ref=sr_1_1?keywords=9781648955808&qid=1637446499&qsid=136-1487773-8969818&sr=8-1&sres=1648955800&srpt=ABIS_BOOK',
+                                    barnes: 'https://www.barnesandnoble.com/w/beautiful-sunset-d-l-smith/1140316550?ean=9781648955808',
+                                    booksamillion: 'https://www.booksamillion.com/p/Beautiful-Sunset/D-L-Smith/9781648955808?id=8374469245196',
                                 }
                             }}
                         />

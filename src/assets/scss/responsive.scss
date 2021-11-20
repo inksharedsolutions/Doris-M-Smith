@@ -8,9 +8,10 @@
 			padding-top: 10px;
 		}
 		
-		width: 40rem;
+		// width: 40rem;
+		width: 1000px;
 		span{
-			font-size: 25px;
+			font-size: 45px;
 		}
 		h1{
 			font-size: 85px;
@@ -133,10 +134,11 @@
 
 	.banner-text {
 		padding-top: 85px;
+		width:1000px;
 		h1{
 			font-size: 57px;
 			padding: 0;
-			text-shadow: 2px 2px #ffffff;
+			text-shadow: 2px 5px #000000;
 
 			.small{
 
@@ -183,12 +185,10 @@
 		// padding-top: 220px;
 
 		h1{
-			font-size: 6rem;
+			font-size: 8rem;
 			padding-top: 15vw;
-			.small{
-				font-size: 40px;
-				padding: 17px;
-			}
+			text-align: center;
+			
 		}
 		span{
 			font-size: 28px;
@@ -857,7 +857,9 @@
 	.banner-text {
 		h1 {
 			margin: 0;
-			font-size: 17vw;
+			font-size: 60px;
+			text-shadow: 2px 3px #000000;
+
 		}
 	}
 }
@@ -872,9 +874,9 @@
 		padding-top: 6em;
 
 		h1{
-			font-size: 60px;
-			padding-top: 130px;
-			text-shadow: 2px 2px #ffffff;
+			font-size: 50px;
+			padding-top: 110px;
+			text-shadow: 2px 2px #000000;
 			.small{
 				font-size: 40px;
 				text-shadow: 2px 2px #ffffff;
@@ -1227,22 +1229,12 @@
 
 	.banner-text {
 		h1 {
-			text-shadow: 2px 2px #ffffff;
+			text-shadow: 2px 2px #000000;
 			font-size: 30px;
-			color:#ed2929 !important;
-			text-align: center;
-			font-family: "narrow";
+			color:#ffffff !important;
+			text-align: center;	
 			letter-spacing: 7px;
-			.small{
-				text-shadow: 2px 2px #ffffff;
-				line-height: 1;
-				text-align: center;
-				font-family: "NARROW";
-				padding: 12px;
-				font-style: normal;
-				font-size: 20px;
-			}
-	
+			
 			
 
 			span {

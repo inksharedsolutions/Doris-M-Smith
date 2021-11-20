@@ -10,7 +10,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="Author | Joanne M. Baker" />
+                <Helmet title="Author |  D.L. Smith" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -22,7 +22,7 @@ const ATB = (props) => {
 
                         <div className="heading-quote column">
                             <div className="author-image-container">
-                                <img src={AuthorImg} alt="Joanne M. Baker"/>
+                                <img src={AuthorImg} alt=" D.L. Smith"/>
                             </div>
 
                             {/* <div className="heading-quote"> */}
@@ -38,19 +38,16 @@ const ATB = (props) => {
 
                         <article className="article-section column" id="author">
                             <p>
-                            I started writing TRAPPED IN LOVE'S MAGIC SPELL as a junior in high school because a teacher told me I had to do something in study hall I couldn't just sit there. 
+                            As my book "Beautiful Sunset" sets forward, I was a farm girl, who worked very hard all the time.  I vowed to become a private secretary and worked tirelessly to that end. 
                             </p>
                             <p> 
-                            Twelve years and 4,378 handwritten pages later I finished it.                            
-
-                                There was a lot of life in that twelve years: junior, senior in high school, graduating, working, college, getting an associate degree in psychology, in 1999 breaking both upper arms, recovering from that, but finally finishing it.
+                            I married and had children and then had to get a divorce because of my husband's infidelity.
                             </p> 
                             <p>
-                                 At age 40 when I wanted to get it published I thought it would be a good idea to break it down to more manageable novels for people to read.  Now at 44, I am releasing novel 1 the ships, hoping it does well.
-                               
+                            I finally had to move to my new home where I met my second husband, who was 22 years older than I was.  When he was afraid the years would be too much for me, I told him, "But oh, what a beautiful sunset it could be!"  Difference in age can be a plus for two people- no matter who is older!
                              </p>  
                             <p>
-                                I lived in Maine most of my life, I moved to Alaska for three years, now I live in New Hampshire.
+                            The highlight of my life has been my children and my being able to help people as a nutrition counselor.  I am happier now than I've ever been in my 90 years!
                             </p>
 
                                              
@@ -58,7 +55,7 @@ const ATB = (props) => {
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author | Writer </span>
-                                    <span className="ata-name">Joanne M. Baker</span>
+                                    <span className="ata-name"> D.L. Smith</span>
                                 </span>
                             </p>
 

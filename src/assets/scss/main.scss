@@ -54,6 +54,11 @@
     font-family: 'FS Elliot Pro-Bold';
     src: url("../../../static/font/FSElliotProBold.otf")format('truetype');
 }
+@font-face {
+    font-family: 'TrajanPro-Bold';
+    src: url("../../../static/font/TrajanPro-Bold.otf")format('truetype');
+}
+
 
 body {
     font-family: 'Poppins', sans-serif !important;
@@ -136,11 +141,14 @@ button {
 
 #___gatsby {
     background: linear-gradient(
-        50deg, #259fb4 0, #ffffff);;
+        50deg, #ffb448  0, #f0f0f0 );;
+        
+
     // background: #1F1F21;
+   
 }
 .ata-name {
-    color: #ffffff ;
+    color: #000000 ;
     font-family: "augusta-free";
     font-size: 4.3vw;
 }
@@ -179,6 +187,8 @@ button {
     h1{
         span{
             line-height: 1;
+            text-shadow: 2px 5px #535353;
+
         }
     }
 }

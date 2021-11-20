@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LogoFooter from '../../static/logo/stratton-footer-logo.png'
-import Logo from '../../static/logo/logo1.png'
+import Logo from '../../static/logo/logo4.png'
 import Newsletter from "./newsletter"
 
 
@@ -22,7 +22,7 @@ const Footer = () => {
                         </h1>
 
                         <p>
-                            Joanne M. Baker loves to hear from readers. You can reach her via email.
+                             D.L. Smith loves to hear from readers. You can reach her via email.
                             Feel free to send questions about writing, her works, interviews
                             and other publicity matters.
                         </p>

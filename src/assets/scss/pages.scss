@@ -6,7 +6,7 @@ $prm-font-size: 12px;
 @import "~bulma/bulma.sass";
 
 .web-banner {
-	background: url("../../../static/banner/b2.jpg");
+	background: url("../../../static/banner/swing.jpg");
 	height: 650px;
 	// background-attachment: fixed;
 	background-position: center;
@@ -141,7 +141,7 @@ $prm-font-size: 12px;
 	text-align: center;
 
 	img {
-		/* width: 100%; */
+		// width: 100%;
 		padding: 0px;
 		margin: 0;
 	}
@@ -174,7 +174,7 @@ $prm-font-size: 12px;
 	border-radius: 1px !important;
 	width: 100% !important;
 	max-width: 100%;
-	background:#067b86;
+	background:#c0bfbfc2;
 	// background: rgb(20, 20, 20);
 }
 
@@ -207,7 +207,7 @@ $prm-font-size: 12px;
 	height: 250px;
 	border: 1px solid #cecece;
 	width: 100%;
-	background: #067b86;
+	background: #c0bfbfc2;
 	padding: 1%;
 	color: white;
 }
@@ -485,7 +485,7 @@ $prm-font-size: 12px;
 
 #author-name{
 	.ata-name {
-		color: #ffffff ;
+		color: #000000 ;
 		font-family: "augusta-free";
 		font-size: 67px;
 	}

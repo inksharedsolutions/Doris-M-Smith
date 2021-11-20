@@ -11,7 +11,7 @@ const MidMain = () => {
                 <div className="container-gt separator-line">
                     <h1>Featured</h1>
                     <p className="middle-params">
-                        Joanne M. Baker has been featured numerous times on...
+                         D.L. Smith has been featured numerous times on...
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">

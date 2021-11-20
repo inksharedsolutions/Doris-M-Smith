@@ -10,16 +10,15 @@ const Banner = () => {
                         <div className="grid-child-elem">
                             <div className="banner-text" id = "banner-txt">
                                 <h1>
-                                TRAPPED <span class ="small">IN</span> LOVE'S <span class = "small">
-                                    MAGIC SPELL
-                                </span>
+                                BEAUTIFUL SUNSET                             
+                                
                                 </h1>
                                
                                 <p className>
-                                    <span>
+                                    {/* <span>
                                    BOOK 1: THE SHIPS
                                    </span>
-                                   
+                                    */}
                                 </p>
                             </div>
                         </div>

@@ -11,13 +11,14 @@ const Author = () => {
                     <div className="grid-child" id="author-contents">
 
                         <p data-aos="fade-up" data-aos-duration="2000">
-                        I started writing TRAPPED IN LOVE'S MAGIC SPELL as a junior in high school because a teacher told me I had to do something in study hall I couldn't just sit there.. 
+                       
+As my book "Beautiful Sunset" sets forward, I was a farm girl, who worked very hard all the time. I vowed to become a private secretary and worked tirelessly to that end...
  
                         </p>
 
                         <h1 className="author-name-tag" >
                             <span></span>
-                            <span>Joanne M. Baker</span>
+                            <span> D.L. Smith</span>
                         </h1>
 
                         <span className="author-tagline">Author & Writer</span>

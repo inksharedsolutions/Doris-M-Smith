@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import FrontBook from '../../static/books/book3.png'
+import FrontBook from '../../static/books/book.png'
 // import Accordions from '../containers/accordions'
 
 const MidBook = (props) => {
@@ -24,7 +24,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p data-aos="fade-up" data-aos-duration="2000">
-                            Anne is the owner and there for in charge of the shipping company Paw Print when women were thought to be property; when the ship she is on is taken over by what she thinks are pirates...
+                            Beautiful Sunset is the memory of an 89-year old woman. It shows all the trials and joys of her life.
                             </p>
 
                             <button className="btn-book-featured" data-aos="fade-up" data-aos-duration="3000">
