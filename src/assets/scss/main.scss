@@ -114,14 +114,14 @@ button {
     margin-top: 6%;
 
     a {
-        color: #fff !important;
+        color: rgb(136, 135, 135);
         text-decoration: none;
         cursor: pointer;
         font-size: 18px;
     }
 }
 .btn-book-featured:hover {
-    background-color: #6a7778;
+    background-color: #bc7e03;
     color: #000;
     cursor: pointer;
 }
@@ -129,7 +129,7 @@ button {
 .btn-book-featured {
 
     background: none;
-    border: 2px solid #ffffff;
+    border: 2px solid #787676;
     border-radius: 40px;
     padding: 2% 4em;
     margin-top: 5%;
@@ -140,8 +140,7 @@ button {
 }
 
 #___gatsby {
-    background: linear-gradient(
-        50deg, #ffb448  0, #f0f0f0 );;
+    background: white;
         
 
     // background: #1F1F21;

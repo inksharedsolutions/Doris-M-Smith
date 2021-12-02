@@ -169,12 +169,12 @@ $prm-font-size: 12px;
 .formInputs {
 	margin-top: 11px !important;
 	padding: 0.89em 0.246em !important;
-	border: 1px solid #cccccc !important;
-	color: #ffffffee !important;
+	border: 1px solid #d8d6d6 !important;
+	color: #000000ee !important;
 	border-radius: 1px !important;
 	width: 100% !important;
 	max-width: 100%;
-	background:#c0bfbfc2;
+	background:#cfcfcfc2;
 	// background: rgb(20, 20, 20);
 }
 
@@ -207,9 +207,9 @@ $prm-font-size: 12px;
 	height: 250px;
 	border: 1px solid #cecece;
 	width: 100%;
-	background: #c0bfbfc2;
+	background: #cfcfcfc2;
 	padding: 1%;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 .abtiaryButton {

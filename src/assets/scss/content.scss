@@ -31,7 +31,7 @@
 }
 
 #main-upper-author {
-	background: linear-gradient(to bottom, #ffb448c7 0,#c8c8c8); 
+	background: linear-gradient(to bottom, #ffffff 0,#c8c8c8); 
 	padding: 6% 0;
 	text-align: center;
 	position: relative;
@@ -70,7 +70,7 @@
 	/*changes*/
 	
 	background: linear-gradient(
-		180deg, #c8c8c8 0, #ffb448c7);
+		180deg, #c8c8c8 0, #ffffff);
 	padding: 6% 0;
 	text-align: center;
 	position: relative;
@@ -294,8 +294,8 @@
 	}
 }
 .buttonLayouts:hover {
-    background-color: grey;
-    color: #000;
+    background-color: #8b5e04;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -635,7 +635,7 @@
 	align-items: flex-start;
 	text-align: left;
 
-	background: #8c837e6b;
+	background: #50505063;
 	padding: 8% 9%;
 	border-radius: 4%;
 
