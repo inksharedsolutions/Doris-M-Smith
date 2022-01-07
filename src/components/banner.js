@@ -9,16 +9,16 @@ const Banner = () => {
                     <div className="one-grid-columns">
                         <div className="grid-child-elem">
                             <div className="banner-text" id = "banner-txt">
-                                <h1>
-                                BEAUTIFUL SUNSET                             
+                                <h1 data-aos="fade-up" data-aos-duration="500">
+                                    MILITANT CHRISTIAN PARENTING                         
                                 
                                 </h1>
                                
-                                <p className>
-                                    {/* <span>
-                                   BOOK 1: THE SHIPS
+                                <p >
+                                    <span>
+                                   On a Whole New Level
                                    </span>
-                                    */}
+                                   
                                 </p>
                             </div>
                         </div>

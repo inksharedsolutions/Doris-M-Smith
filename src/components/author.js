@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import AuthorImg from '../../static/author/Doris.jpg'
+import AuthorImg from '../../static/author/dummy.png'
 
 const Author = () => {
     return (
@@ -11,14 +11,13 @@ const Author = () => {
                     <div className="grid-child" id="author-contents">
 
                         <p data-aos="fade-up" data-aos-duration="2000">
-                       
-As my book "Beautiful Sunset" sets forward, I was a farm girl, who worked very hard all the time. I vowed to become a private secretary and worked tirelessly to that end...
+                        Ashlee Christina Alie is a quiet young 31 year-old woman who grew up in a sheltered environment on the beautiful tropical island of Barbados.  During my teenage years, I developed an interest in song writing and poetry and had a passion for music, which led me to enter a song competition, although not successful.   I also enjoy watching movies.
  
                         </p>
 
                         <h1 className="author-name-tag" >
                             <span></span>
-                            <span> D.L. Smith</span>
+                            <span> Ashlee Alie</span>
                         </h1>
 
                         <span className="author-tagline">Author & Writer</span>

@@ -4,7 +4,7 @@ import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
-import Book3 from '../../static/books/book.png'
+import Book3 from '../../static/books/ashleealiebook.png'
 import { Helmet } from 'react-helmet'
 
 const ATB = (props) => {
@@ -12,7 +12,7 @@ const ATB = (props) => {
     const slug = (props.location.href);
 
     const disqusConfig = {
-        shortname: 'd-l-smith',
+        shortname: 'ashlee-alie',
         config: { identifier: 12, slug }
     }
 
@@ -20,7 +20,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="Book |  D.L. Smith" />
+                <Helmet title="Book |  Ashlee Alie" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -35,14 +35,14 @@ const ATB = (props) => {
 
                         <BookInfo
                             data={{
-                                title: `Beautiful Sunset`,
-                                // spanFirst: `Book 1: THE SHIPS`,
+                                title: `Militant Christian Parenting`,
+                                spanFirst: `On a Whole New Level`,
                                 imgSrc: Book3,
                                 id: 'the_gifted_one',
                                 content:
                                     `
                                         <p>
-                                        Beautiful Sunset is the memory of an 89-year old woman. It shows all the trials and joys of her life. Some bad, some good, but all made her who she is today.
+                                        The book Militant Christian Parenting is based on building faith in God and doing it with militancy. It teaches parents to see that children are God's gift and next in line to the throne and that what parents do now will affect generations to come. Children are royalty, and it all starts with the parents training them for eternal life with Christ so that they can walk the golden pavements of heaven and be forever in the presence of God. It is time to start raising our children into their true purpose and destiny.
                                         </p>
                                         
                                         
@@ -52,12 +52,12 @@ const ATB = (props) => {
                                 ebooks: {
                                     // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
                                     barnes: 'https://www.barnesandnoble.com/w/beautiful-sunset-d-l-smith/1140316550?ean=9781648955815',
-                                    amazon: 'https://www.amazon.com/Beautiful-Sunset-D-L-Smith-ebook/dp/B09HXYF823/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1637446499&sr=8-1',
+                                    amazon: 'https://www.amazon.com/Militant-Christian-Parenting-Whole-Level-ebook/dp/B096L8X47M/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1632429517&sr=8-1',
                                 },
                                 paperback: {
-                                    amazon: 'https://www.amazon.com/Beautiful-Sunset-D-L-Smith/dp/1648955800/ref=sr_1_1?keywords=9781648955808&qid=1637446499&qsid=136-1487773-8969818&sr=8-1&sres=1648955800&srpt=ABIS_BOOK',
-                                    barnes: 'https://www.barnesandnoble.com/w/beautiful-sunset-d-l-smith/1140316550?ean=9781648955808',
-                                    booksamillion: 'https://www.booksamillion.com/p/Beautiful-Sunset/D-L-Smith/9781648955808?id=8374469245196',
+                                    amazon: 'https://www.amazon.com/Militant-Christian-Parenting-Whole-Level/dp/1643458612/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1632429517&sr=8-1',
+                                    barnes: 'https://www.barnesandnoble.com/w/militant-christian-parenting-ashlee-c-alie/1120209579?ean=9781643458618',
+                                    booksamillion: 'https://www.booksamillion.com/p/Militant-Christian-Parenting/Ashlee-Alie/9781643458618?id=8414367126265#',
                                 }
                             }}
                         />

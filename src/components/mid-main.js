@@ -1,8 +1,8 @@
 import React from 'react'
-import Logo1 from '../../static/logo/amazon.png'
-import Logo2 from '../../static/logo/bam.png'
-import Logo3 from '../../static/logo/Barnes-and-noble-booksellers-logo.png'
-import Logo4 from '../../static/logo/stratton-logo.png'
+import Logo1 from '../../static/logo/_amazon.png'
+import Logo2 from '../../static/logo/_bam.png'
+import Logo3 from '../../static/logo/_Barnes-and-noble-booksellers-logo.png'
+import Logo4 from '../../static/logo/logo updated0.png'
 
 const MidMain = () => {
     return (
@@ -11,7 +11,7 @@ const MidMain = () => {
                 <div className="container-gt separator-line">
                     <h1>Featured</h1>
                     <p className="middle-params">
-                         D.L. Smith has been featured numerous times on...
+                         Ashlee Alie has been featured numerous times on...
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">

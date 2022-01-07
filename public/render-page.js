@@ -1640,13 +1640,13 @@ var plugins = [{
     "background_color": "#663399",
     "theme_color": "#663399",
     "display": "minimal-ui",
-    "icon": "static/logo/logo4.png",
+    "icon": "static/logo/aa.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "d7c989b11a96b0f091bf69f921070bc0"
+    "cacheDigest": "6328d2a4952a963395bb4c72cc9478db"
   }
 }];
 /* global plugins */
@@ -9961,23 +9961,23 @@ module.exports = withSideEffect;
 
 /***/ "react-dom/server":
 /*!********************************************************************************!*\
-  !*** external "D:\\_Websites\\DorisSmith\\node_modules\\react-dom\\server.js" ***!
+  !*** external "D:\\_Websites\\AshleeAlie\\node_modules\\react-dom\\server.js" ***!
   \********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("D:\\_Websites\\DorisSmith\\node_modules\\react-dom\\server.js");
+module.exports = require("D:\\_Websites\\AshleeAlie\\node_modules\\react-dom\\server.js");
 
 /***/ }),
 
 /***/ "react":
 /*!***************************************************************************!*\
-  !*** external "D:\\_Websites\\DorisSmith\\node_modules\\react\\index.js" ***!
+  !*** external "D:\\_Websites\\AshleeAlie\\node_modules\\react\\index.js" ***!
   \***************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("D:\\_Websites\\DorisSmith\\node_modules\\react\\index.js");
+module.exports = require("D:\\_Websites\\AshleeAlie\\node_modules\\react\\index.js");
 
 /***/ }),
 
